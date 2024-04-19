@@ -1,5 +1,7 @@
 package com.techpixe.picnie.template.dto;
 
+import org.springframework.web.multipart.MultipartFile;
+
 import lombok.Data;
 
 @Data
