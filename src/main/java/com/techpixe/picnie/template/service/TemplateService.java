@@ -11,14 +11,14 @@ import com.techpixe.picnie.template.dto.TextElementDTO;
 
 public interface TemplateService {
 
-	Template createTemplate(Template template);
+	//Template createTemplate(Template template);
 
 	List<Template> getAllTemplates();
 
 	String getById(long id);
 
-	Template createTemplateWithElements(Template template, List<TextElementDTO> textElementsDTO,
-			MultipartFile imageFile);
+	Template createTemplateWithElements(Template template, List<TextElement> textElements,
+			MultipartFile imageFile,String imageName,String imageType);
 
 	// Template createTemplate(Template template);
 
